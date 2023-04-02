@@ -1,0 +1,11 @@
+a INPUT
+b INPUT
+c INPUT
+d INPUT
+Z OUTPUT
+s = NOT d
+q = NAND b c
+p = NOT a
+r = NAND p q
+t = NAND r s
+Z = NOT t
